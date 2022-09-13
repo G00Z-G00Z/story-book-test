@@ -1,7 +1,23 @@
 {
-  "name": "my-story-book",
+  "name": "g00z-g00z-my-storybook-component-course",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "typings": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "repository": {
+    "url": "https://github.com/G00Z-G00Z/story-book-test",
+    "type": "git"
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -18,7 +34,7 @@
   },
   "scripts": {
     "start": "yarn run storybook",
-    "build": "react-scripts build",
+    "build": "echo 'TODO: Hacer el build'",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 ",
